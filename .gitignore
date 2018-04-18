@@ -1,4 +1,4 @@
-interaction_data
+interaction_data/*
 *.json
 *.mkv
 video_data
