@@ -1,5 +1,6 @@
-interaction_data/*
+interaction_data
 *.json
 *.mkv
-video_data/*
-keypoints/*
+video_data
+keypoints
+models
