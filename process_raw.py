@@ -28,7 +28,7 @@ for index,row in label_table.iterrows():
         os.mkdir(out_dir)
     clip=ffmpy.FFmpeg(
         inputs={file_dir:None},
-        outputs={out_dir+'/'+str(counter.get(row['label'],1))+'.avi':cmd}
+        outputs={out_dir+'/'+str(counter.get(row['label'],1))+'.mkv':cmd}
     )
     counter[row['label']] = counter.get(row['label'],1)+1
     clip.run()

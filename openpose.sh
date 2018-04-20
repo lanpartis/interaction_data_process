@@ -9,7 +9,7 @@ for folder in $(ls $dir); do
         echo $action_clip|grep -Eo '*[0-9]+.avi'|grep -Eo '[0-9]+'
         newfolder=$(echo $action_clip|grep -Eo '*[0-9]+.avi'|grep -Eo '[0-9]+')
         mkdir ${subfolder}"/$newfolder"
-        openpose --video ${subfolder}"/$action_clip" -write_json ${subfolder}"/$newfolder"
+        openpose --video ${subfolder}"/$action_clip" -write_json ${subfolder}"/$newfolder" --display 0 --render_pose 0
     done
 done
 
