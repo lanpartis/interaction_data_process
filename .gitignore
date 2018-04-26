@@ -4,3 +4,5 @@ interaction_data
 video_data
 keypoints
 models
+*.ipynb
+*.txt
