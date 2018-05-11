@@ -6,3 +6,5 @@ keypoints
 models
 *.ipynb
 *.txt
+*.json
+*.mp4
